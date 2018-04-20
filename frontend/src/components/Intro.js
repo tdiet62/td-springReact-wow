@@ -79,7 +79,6 @@ class Intro extends Component {
 
     render() {
         const breadcrumb =this.home();
-        console.log("Render called in Intro.js")
         this.getArticle();
         return (
             <div className="App">
