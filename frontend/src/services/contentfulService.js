@@ -4,8 +4,13 @@ class ContentfulService {
 
 
     getArticle(articleID){
-        const port = 8080
-        const origin = window.location.protocol+"//"+window.location.hostname + ":" + port;
+        let port = window.location.port;
+        let origin;
+        if(port){
+            origin = window.location.protocol+"//"+window.location.hostname + ":" + port;
+        }else {
+            origin = window.location.protocol + "//" + window.location.hostname + ":" + port;
+        }
 
         const options ={
             json:true
