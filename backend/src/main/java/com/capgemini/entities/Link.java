@@ -13,7 +13,7 @@ public class Link {
     @Setter
     private String id;
 
-    public Link(CDAEntry linkedArticle){
+    public Link(CDAEntry linkedArticle) {
         setTitle(linkedArticle.getField("title"));
         setId(linkedArticle.id());
     }

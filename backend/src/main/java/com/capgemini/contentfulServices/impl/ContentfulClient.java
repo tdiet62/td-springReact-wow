@@ -2,6 +2,7 @@ package com.capgemini.contentfulServices.impl;
 
 
 import com.contentful.java.cda.CDAClient;
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -19,7 +20,7 @@ public class ContentfulClient {
 
 
 
-    public CDAClient getClient(){
+    public CDAClient getClient() {
         return CDAClient.builder().setSpace(this.cdaSpaceKey).setToken(this.cdaAccessToken).build();
     }
 }
