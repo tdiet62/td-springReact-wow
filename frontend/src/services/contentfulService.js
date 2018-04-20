@@ -9,7 +9,7 @@ class ContentfulService {
         if(port){
             origin = window.location.protocol+"//"+window.location.hostname + ":" + port;
         }else {
-            origin = window.location.protocol + "//" + window.location.hostname + ":" + port;
+            origin = window.location.protocol + "//" + window.location.hostname
         }
 
         const options ={
