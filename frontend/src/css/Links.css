@@ -1,0 +1,10 @@
+.LinkBox {
+    float: right;
+    border: 1px solid lightgray;
+    margin-right:30px;
+    padding:20px;
+}
+
+.content-link {
+    margin-bottom: 5px;
+}
