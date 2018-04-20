@@ -40,7 +40,7 @@ jobs:
       # run tests!
       - run: mvn integration-test
 
-      deployment:
+      - deployment:
         staging:
           branch: master
           heroku:
