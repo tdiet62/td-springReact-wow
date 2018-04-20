@@ -26,7 +26,6 @@
         <checkstyle.puppycrawl.version>7.7</checkstyle.puppycrawl.version>
         <maven-pmd-plugin.version>3.8</maven-pmd-plugin.version>
         <main.basedir>${project.basedir}</main.basedir>
-        <maven-git-commit-id-plugin.version>2.1.11</maven-git-commit-id-plugin.version>
     </properties>
 
     <dependencyManagement>
